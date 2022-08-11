@@ -33,21 +33,21 @@ ru/company01/ilyagalkin/postgresql/postgreSqlFillTheTable.java </br>
 ru/company01/ilyagalkin/Test02Application.java </br>
 </br>
 </br>
-POST localhost:8080/api/v1/registration
-{
-"firstName": "user",
-"lastName": "a",
-"email": "user.a@gmail.com",
-"password": "password"
-}
+POST localhost:8080/api/v1/registration</br>
+{</br>
+"firstName": "user",</br>
+"lastName": "a",</br>
+"email": "user.a@gmail.com",</br>
+"password": "password"</br>
+}</br>
 </br>
 </br>
-подтверждение через графический интервейс веб-браузера на localhost:8080, либо запросом
+подтверждение через графический интервейс веб-браузера на localhost:8080, либо запросом</br>
 </br>
-GET localhost:8080/api/v1/registration/confirm?token=8_______-____-________-___________e
+GET localhost:8080/api/v1/registration/confirm?token=8_______-____-________-___________e</br>
 </br>
 </br>
-Преподаватели, с которыми довелось пообщаться, сказали не 
+Преподаватели университета, с которыми довелось пообщаться, сказали не 
 сходить с ума и учить Spring постепенно. </br>
 По Spring Framework и Spring Security в частности подготовил 
 учебные материалы (на англ. неплохой бллоггер есть), учу. </br>
