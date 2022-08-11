@@ -1,7 +1,8 @@
 #Тестовое задание ч.2 /2: Spring Security + PostgreSQL
 
-Пока что отдельно Spring Security и отдельно запросы к БД в </br>
+Пока что отдельно Spring Security и запросы к БД в </br>
 ru/company01/ilyagalkin/controller/HomiesController.java </br>
+из-за недостатка опыта.
 </br>
 </br>
 Сервис отправки электронных писем с подтверждением:</br>
@@ -10,7 +11,7 @@ https://github.com/maildev</br>
 Раюбота с образом в Docker:</br>
 docker run -p 1080:1080 -p 1025:1025 maildev/maildev</br>
 </br>
-Образ postgres:alpine lkz hf,jns c БД в Docker.</br>
+Образ postgres:alpine работает с БД в Docker.</br>
 Номер порта конфликтует с обычной PostgreSQL, поэтому 8088</br>
 //docker run --name postgres -p 8088:5432 -e POSTGRES_PASSWORD=somepass -e POSTGRES_USER=someuser -e POSTGRES_DB=homies -d postgres:alpine</br>
 </br>
@@ -42,7 +43,7 @@ POST localhost:8080/api/v1/registration</br>
 }</br>
 </br>
 </br>
-подтверждение через графический интервейс веб-браузера на localhost:8080, либо запросом</br>
+подтверждение через графический интерфейс веб-браузера на localhost:8080, либо запросом</br>
 </br>
 GET localhost:8080/api/v1/registration/confirm?token=8_______-____-________-___________e</br>
 </br>
@@ -50,5 +51,5 @@ GET localhost:8080/api/v1/registration/confirm?token=8_______-____-________-____
 Преподаватели университета, с которыми довелось пообщаться, сказали не 
 сходить с ума и учить Spring постепенно. </br>
 По Spring Framework и Spring Security в частности подготовил 
-учебные материалы (на англ. неплохой бллоггер есть), учу. </br>
+учебные материалы (на англ. неплохой блогер есть), учу. </br>
 </br>
